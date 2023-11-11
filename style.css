@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+  }
+  img {
+    max-width: 100%;
+  }
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .widthfix {
+    width: 1100px;
+    margin: auto;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-right {
+    text-align: right;
+  }
+  /* Hadder part */
+  .hadder {
+    background-color: rgb(40, 93, 237);
+  }
+  .hadder-left img {
+    width: 7%;
+    height: auto;
+    float: left;
+  }
+  .hadder-right {
+    width: 70%;
+    height: auto;
+    float: right;
+  }
+  .hadder-right ul {
+    text-align: center;
+  }
+  .hadder-right ul li {
+    display: inline-block;
+    margin-left: -4px;
+  }
+  .hadder-right ul li a {
+    display: block;
+    padding: 0 30px;
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    transition: 1s;
+  }
+  .hadder-right ul li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+  }
+  /*  Hadder part end */
+  
+  /*  Background part */
+  .middle {
+    background: url(https://smartslider3.com/wp-content/uploads/slider/cache/b8d0665e836b3e73c6ade31c34810551/image-slider-with-thumbnail1.webp)
+      no-repeat center;
+    padding: 200px;
+    text-align: center;
+  }
+  .middle h1 {
+    background-color: rgba(56, 81, 224, 0.546);
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: 1s;
+  }
+  .middle h1:hover {
+    background-color: #fff;
+    color: black;
+    box-shadow: 5px 5px 40px rgb(86, 83, 83);
+    transform: rotate(10deg) skewX(10deg);
+  }
+  .middle h2 {
+    background-color: rgba(53, 41, 41, 0.642);
+    display: block;
+    width: 280px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-right: 72px;
+    color: #ddd;
+    transition: 1s;
+  }
+  .middle h2:hover {
+    background-color: rgb(56, 50, 50);
+    transform: rotate(-10deg) skew(10deg);
+    box-shadow: 5px 5px 40px rgb(33, 31, 31);
+  }
+  
+  .content {
+  }
+  .content h1 {
+    background-color: rgb(66, 120, 103);
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 7px;
+    margin-top: 20px;
+    transition: 1s;
+  }
+  .content h1:hover {
+    background-color: rgb(1, 0, 0);
+    color: white;
+    transform: scale(1.1);
+  }
+  .content p {
+    line-height: 40px;
+    margin-top: 30px;
+  }
+  .overview {
+  }
+  .overview .skill {
+    float: left;
+    width: 32%;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: #ddd;
+    box-sizing: border-box;
+    border-radius: 10px;
+    line-height: 40px;
+    transition: 1s;
+  }
+  .overview .skill .light {
+    font-size: 40px;
+    background-color: rgb(11, 23, 255);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px 0 20px 0;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+  .overview .skill .light:hover {
+  }
+  .overview .skill:hover .light {
+    color: rgb(238, 255, 5);
+    background-color: rgb(0, 0, 0);
+  }
+  .overview .skill:hover {
+    padding-top: px;
+    box-sizing: border-box;
+    border-radius: 20px 100px;
+    border: 3px solid black;
+    box-sizing: border-box;
+  }
+  .fotter {
+    background-color: rgb(42, 63, 62);
+    color: #fff;
+    margin-top: 100px;
+  }
+  .fotter-left {
+    float: left;
+    width: 70%;
+  }
+  .fotter-left p {
+    line-height: 60px;
+    text-align: center;
+  }
+  .fotter-right {
+    float: right;
+    width: 30%;
+  }
+  .fotter-right ul {
+    list-style: none;
+  }
+  .fotter-right ul li {
+    display: inline-block;
+  }
+  .fotter-right ul li a {
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    line-height: 60px;
+    transition: 0.5s;
+    font-size: 70px;
+  }
+  .fotter-right ul li a:hover {
+    color: red;
+  }
+  
